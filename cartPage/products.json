@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" LD01 Spray",
+        "price": 45.5,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" AIC Ocean",
+        "price": 12.5,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Sparkline",
+        "price": 34.6,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" freshwater sprite",
+        "price": 12.9,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" LIP scrumble",
+        "price": 23.0,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" fresh spray",
+        "price": 48.7,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" Nail Paint",
+        "price": 30.9,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" Cosmetic spray",
+        "price": 20,
+        "image": "image/8.png"
+    }
+
+]

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wishlist</title>
+    <title>Cartv</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,14 +71,13 @@
 
         <div class="hero">
             <div class="slideshow-container">
-               
-                <h2>Wishlist</h2>
+
+                <h2>Cart</h2>
                 <img src="./image/line_foot.png" alt="">
                 <div class="links">
                     <a href="../homePage/homePage.html">HOME</a>
-                    <i class="fa-solid fa-angle-left fa-lg" style="color: #000000;"></i>
-                    <a href="../cartPage/index.html">Cart</a>
-                    
+                    <i class="fa-solid fa-chevron-right fa-lg" style="color: #000000;"></i>
+                    <a href="../wishlistPage/index.html">Wishlist</a>
                 </div>
                 
         </div>
@@ -98,6 +97,11 @@
 
         </div>
     </div>
+
+
+
+
+
     
     <div class="cartTab">
         <h1>Shopping Cart</h1>
@@ -108,52 +112,6 @@
             <button class="close">CLOSE</button>
             <button class="checkOut">Check Out</button>
         </div>
-    </div>
-
-    <div class="selection">
-        
-        <div class="form_left">
-            <h1>Calculate Shipping</h1>
-           <div class="form_left_top">
-            <div class="form_left_top_top">
-               
-                <select id="country" name="country">
-                    <option value="USA">United States</option>
-                    <option value="Canada">Canada</option>
-                    <option value="UK">United Kingdom</option>
-                    <option value="Australia">Australia</option>
-                    <!-- Add more options for other countries as needed -->
-                </select>
-                
-                <select id="country" name="country">
-                    <option value="California">California</option>
-                    <option value="Los Angels">Los Angels</option>
-                    <option value="New York">New York</option>
-                    <option value="Washington">Washington</option>
-                    <!-- Add more options for other countries as needed -->
-                </select>
-            </div>
-            <div class="form_left_top_bottom">
-                <input type="text" id="zipCode" name="zipCode" placeholder="Enter zip code">
-                <button>ESTIMATE</button>
-            </div>
-           </div>
-           <div class="form_left_bottom">
-            <h5 >Discount Coupon Code</h5>
-            <input type="text" id="zipCode" name="zipCode" placeholder="coupon code">
-                <button> APPLY CODE</button>
-           </div>
-        </div>
-        <div class="form_right">
-            <div class="form_right_top">
-                <img src="./image/form_right.png" alt="">
-            </div>
-            <div class="form_right_bottom">
-                <button>UPDATE CARD</button>
-                <button>CHECKOUT</button>
-            </div>
-        </div>
-       
     </div>
 
     <footer>
@@ -210,6 +168,6 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>
